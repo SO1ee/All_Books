@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-3  text-info">
 			<h3>Books.com</h3>
 		</div>
 		<div class="col-md-6">
@@ -17,7 +17,7 @@
 </div>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,13 +27,13 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Recent Book</a>
+          <a class="nav-link active" href="#"><i class="fa-solid fa-book-open"></i>Recent Book</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">New Book</a>
+          <a class="nav-link active" href="#"><i class="fa-solid fa-book-open"></i>New Book</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Old Book</a>
+          <a class="nav-link active" href="#">Old Book</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
