@@ -21,6 +21,9 @@ background-color:#fcf7f7;
 </head>
 <body style="background-color:#f7f7f7">
 <%@include file="All_Component/navbar.jsp"%>
+<% Connection conn = DBConnect.getConn();
+   out.println(conn);
+%>
 <div class="container-fluid back-img"></div>
 <!-- start of recent book -->
 <div class="container-fluid">

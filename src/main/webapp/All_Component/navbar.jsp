@@ -10,7 +10,7 @@
       		</form>
 		</div>
 		<div class="col-md-3">
-			<a href="" class="btn btn-info">Login</a>
+			<a href="Login.jsp" class="btn btn-info">Login</a>
 			<a href="Registration.jsp" class="btn btn-primary">Sign Up</a>
 		</div>
 	</div>
